@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
       </Head>
       <main className={styles.main}>
-        <h1>Lily&apos;s Quotes Free trial</h1>
+        <h1>Lily&apos;s Quotes Free Trial</h1>
         <div className={styles.description}>
           <h2>There is no I in team, but there are two in refrigerator. Think about it.</h2>
         </div>
