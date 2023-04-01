@@ -13,11 +13,15 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Lily&apos;s Quotes Free Trial</h1>
         <div className={styles.description}>
+          {/* here we need to fill the text */}
           <h2>There is no I in team, but there are two in refrigerator. Think about it.</h2>
         </div>
-        <div className={styles.center}>
 
+        <div className={styles.center}>
+          Hello Lily. Click the button below for a new quote.
+          <button className={styles.button} >Generate</button>
         </div>
+
         <div className={styles.grid}>
         </div>
       </main>

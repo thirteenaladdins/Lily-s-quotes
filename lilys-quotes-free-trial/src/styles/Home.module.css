@@ -75,6 +75,7 @@
 
 .center {
   display: flex;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   position: relative;
@@ -82,7 +83,7 @@
 }
 
 .center::before {
-  background: var(--secondary-glow);
+  /* background: var(--secondary-glow); */
   border-radius: 50%;
   width: 480px;
   height: 360px;
@@ -90,7 +91,7 @@
 }
 
 .center::after {
-  background: var(--primary-glow);
+  /* background: var(--primary-glow); */
   width: 240px;
   height: 180px;
   z-index: -1;
@@ -109,6 +110,25 @@
 .thirteen {
   position: relative;
 }
+
+.button {
+  border: 1px solid black;
+  /* color: white; */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: black;
+}
+
 
 .thirteen {
   display: flex;
@@ -197,6 +217,7 @@
 
   .center {
     padding: 8rem 0 6rem;
+
   }
 
   .center::before {
